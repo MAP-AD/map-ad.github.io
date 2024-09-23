@@ -5,4 +5,4 @@ theme: jekyll-theme-minimal
 
 domain: map-ad.github.io
 url: https://map-ad.github.io
-baseurl: /docs
+baseurl: ""

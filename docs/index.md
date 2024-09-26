@@ -2,122 +2,54 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Ubi et rogat quae
 
-[Link to another page](./another-page.html).
+## Genitorque margine feres est signata dabis tormento
 
-There should be whitespace between paragraphs.
+Lorem **markdownum dixerat** vix nec rursusque et quondam fuerunt premente
+Acesten sacro tantum aequora *frons digna*: manibus. Sub Quae mater remis multo
+arenti funesta habebit vocas; totoque **differt tutaeque** cum nec aut a! Tritis
+litore illa adplicor: illi opus et Lycias et opto Iuppiter potest novabis. In
+aptos Saturnia nocet mens longus, Delos? Ille absens: cum quot non graves,
+memorant sic, tua aut illa, sua aris vincere vires.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Cum memorat Latini lascivitque **erat**. Concussit amplexa genetrix et facibus
+germanam **pendat**, punica ignarus, ne haud provolat. Aliquem [prohibes
+Pindo](http://somnus-quam.net/rates), lumine, quid culpa et roganti?
 
-# Header 1
+Cum ora suis se sine addit, **gemitus sic dicens**. Est nisi revulsum
+**Cyllare** filo murra tui Hectora lentae neque titulum profuso lacteus corvum.
+Achilles sub Hypsea, cum adlevet si colubris rediit porrigit lignum deum. Moles
+et dum plus obest litora sumpta; *illum adferre* rebelles fessa profecturas
+regna multamque Iasone Tellus.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+1. Cum accipe saxo gerens
+2. Miseram vitam
+3. Ungula quem
 
-## Header 2
+## Signa quoquam
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Conripimus ipsos patruique iacta vetat. Relinquis forsitan et volatilis album,
+reddit tibi, iam locis mandata, et in? Colla nullasque Ossaeae. Recentibus nemus
+in movisse simul leves: suffusus non, ille conantem viridis, suos bella.
 
-### Header 3
+> Cognata annum *iuvenalibus urbem resupina* si tantae, iamque *intulerant
+> pugnare* balatus, et socios triplices manifestabitque deflentem **internodia
+> fausto**! Certatimque caede. Ponentem sua lacerto petens inmansuetique summas
+> me autumni variarum nate; concussit.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Doleres plebe Aeacides moriens mortales unde *facinus*, cum **ergo** cunctaque
+auxiliaribus Argus nulli. Luco specus! Intima et *nutrici enim*, est tarda
+tenebrae, et tutum!
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+- Dabat et exire Cadmi aristas
+- Hostem ipse has superamur quae flammas horror
+- Et minister erat
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Tantos mutentur mercede furta, sacra Haec fert caligine. Lelegeides longa, in
+venae, colentes gradientis **concidere**, praevitiat? Quaeque colorum satumque
+*ingrati pectora Thebae* nobis laesi, Veneris viscera, voce *est nullos
+Acheloia* ipsoque fronte, libebat. Conplevit ille aut dum meditata **ortus
+ferumque** sua gradibus corde postquam dant siqua inter. Tuentur latratibus
+formosior forsitan [coniecto](http://www.ubi.io/) praecordiaque toros mihi
+recipit troia curvarent: formam.

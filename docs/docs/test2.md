@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: doc
+title: Test2
 ---
 
 ## Welcome to another page

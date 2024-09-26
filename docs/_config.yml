@@ -1,6 +1,7 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+title: MAP Tools Docs
+logo: /assets/img/MAP-logo.jpg
+logo_footer: /assets/img/UKDRI_logo.jpg
+description: Documentation for the tools used in the Multi-'omics Atlas Project (MAP)'
 theme: jekyll-theme-minimal
 
 domain: map-ad.github.io

@@ -1,7 +1,11 @@
 ---
 layout: doc
+tool: true
+
 title: Test
 author: Michael Thomas
+description: This is a test page
+github: https://github.com/MAP-AD/map-ad.github.io.git
 ---
 
 # Nec fera qui
@@ -62,6 +66,3 @@ Capillis nec cui quae terrebit sparsum iactat sceleratus plebis, suus. [Stagnum
 tenent quoque](http://videre.org/) spumigeroque ferarum bulla. Aquis est ab
 Aeneia argumenta citra spectemur sit cum. Deserto iuvenes confusa dedit Epopeus
 virum. Cessit habeo, lux [potentia nuribus](http://non.io/).
-
-
-[back](./)

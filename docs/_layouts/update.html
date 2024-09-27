@@ -1,15 +1,13 @@
 ---
-layout: default
+layout: main
 ---
 
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
-<p class="view">{{ page.author | default: site.author }} | <a href="{{page.github}}">GitHub</a></p>
+<p class="view">by {{ page.author | default: site.author }}</p>
 
 {{content}}
-
-<p class="view">last updated: {{ page.last_modified_at | date: "%-d %B %Y" }}</p>
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>

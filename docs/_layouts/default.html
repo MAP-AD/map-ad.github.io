@@ -21,7 +21,17 @@
         </a>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        {% assign pages_list = site.pages | sort:"url" %}
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "main" %}
+              <a class=nav href="{{ node.url | relative_url }}">{{ node.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
 
+        <p class=side_header><b>Tools</b></p>
         {% assign pages_list = site.pages | sort:"url" %}
         {% for node in pages_list %}
           {% if node.title != null %}
@@ -41,7 +51,7 @@
         <a href="http://ukdri.ac.uk/">
           <img src="{{site.logo_footer | relative_url}}" alt="UKDRI Logo" />
         </a>
-        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Theme adapted from <a href="https://github.com/orderedlist/minimal">orderedlist/minimal</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

@@ -1,55 +1,55 @@
 ---
-layout: default
+layout: main
+title: Home
 ---
 
-# Ubi et rogat quae
+## Welcome to the MAP tools wiki!
 
-## Genitorque margine feres est signata dabis tormento
+This is a collection of tools put together to process/analyse data from the multi-'omics atlas project (MAP).
 
-Lorem **markdownum dixerat** vix nec rursusque et quondam fuerunt premente
-Acesten sacro tantum aequora *frons digna*: manibus. Sub Quae mater remis multo
-arenti funesta habebit vocas; totoque **differt tutaeque** cum nec aut a! Tritis
-litore illa adplicor: illi opus et Lycias et opto Iuppiter potest novabis. In
-aptos Saturnia nocet mens longus, Delos? Ille absens: cum quot non graves,
-memorant sic, tua aut illa, sua aris vincere vires.
+The MAP tools wiki is designed as a central resource to help researchers navigate and utilise tools developed/used for MAP. Here, you will find documentation, user guides, and best practices for each tool.
 
-Cum memorat Latini lascivitque **erat**. Concussit amplexa genetrix et facibus
-germanam **pendat**, punica ignarus, ne haud provolat. Aliquem [prohibes
-Pindo](http://somnus-quam.net/rates), lumine, quid culpa et roganti?
+### Table of Contents
+- [Getting Started](#getting-started)
+- [Tools table](#tools-table)
+- [Contributing](#contributing)
+- [Support](#support)
+- [Latest Updates](#latest-updates)
+- [FAQs](#faqs)
+- [Contact Information](#contact-information)
 
-Cum ora suis se sine addit, **gemitus sic dicens**. Est nisi revulsum
-**Cyllare** filo murra tui Hectora lentae neque titulum profuso lacteus corvum.
-Achilles sub Hypsea, cum adlevet si colubris rediit porrigit lignum deum. Moles
-et dum plus obest litora sumpta; *illum adferre* rebelles fessa profecturas
-regna multamque Iasone Tellus.
+### Getting Started
 
-1. Cum accipe saxo gerens
-2. Miseram vitam
-3. Ungula quem
+To begin, explore the tools table below to find the tool that best suits your needs. Each entry includes a brief description and a link to the documentation.
 
-## Signa quoquam
+### Tools table
 
-Conripimus ipsos patruique iacta vetat. Relinquis forsitan et volatilis album,
-reddit tibi, iam locis mandata, et in? Colla nullasque Ossaeae. Recentibus nemus
-in movisse simul leves: suffusus non, ille conantem viridis, suos bella.
+| Tool | Description | GitHub |
+|------|-------------|------|
+{% for page in site.pages -%}
+{% if page.tool -%}
+| [{{ page.name }}]({{page.url}}) | {{ page.description }} | [{{ page.github }}]({{ page.github }}) |
+{% endif -%}
+{% endfor %}
 
-> Cognata annum *iuvenalibus urbem resupina* si tantae, iamque *intulerant
-> pugnare* balatus, et socios triplices manifestabitque deflentem **internodia
-> fausto**! Certatimque caede. Ponentem sua lacerto petens inmansuetique summas
-> me autumni variarum nate; concussit.
+### Contributing
 
-Doleres plebe Aeacides moriens mortales unde *facinus*, cum **ergo** cunctaque
-auxiliaribus Argus nulli. Luco specus! Intima et *nutrici enim*, est tarda
-tenebrae, et tutum!
+We welcome contributions. If you have developed a tool used for MAP or have improvements to suggest to one, please refer to our [contribution guidelines](contributing.md) for more information.
 
-- Dabat et exire Cadmi aristas
-- Hostem ipse has superamur quae flammas horror
-- Et minister erat
+### Support
 
-Tantos mutentur mercede furta, sacra Haec fert caligine. Lelegeides longa, in
-venae, colentes gradientis **concidere**, praevitiat? Quaeque colorum satumque
-*ingrati pectora Thebae* nobis laesi, Veneris viscera, voce *est nullos
-Acheloia* ipsoque fronte, libebat. Conplevit ille aut dum meditata **ortus
-ferumque** sua gradibus corde postquam dant siqua inter. Tuentur latratibus
-formosior forsitan [coniecto](http://www.ubi.io/) praecordiaque toros mihi
-recipit troia curvarent: formam.
+If you encounter any issues with the site or have questions, please open an issue on our [GitHub repository](https://github.com/MAP-AD/map-ad.github.io). Likewise any issues with the tools themselves should be reported to the respective tool repository. This can be found in the tool's documentation page.
+
+Happy analysing!
+
+### Latest Updates
+
+{% for page in site.pages limit:5 %}
+{% if page.layout == 'update' %}
+- [**{{page.date}}** *{{ page.title }}*]({{ page.url }})
+{% endif %}
+{% endfor %}
+
+### Contact Information
+
+<img class=inline_image src="/assets/img/Michael.png" width=75px /> Site Developer: [Michael Thomas](mailto:michael.thomas21@imperial.ac.uk)

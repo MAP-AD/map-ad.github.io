@@ -9,33 +9,31 @@ Thank you for adding documentation for your tool! Here are some guidelines to ge
 
 1. **Fork the Repository**: Create a fork of the repository on GitHub
 
-2. **Clone the Repository**: Clone your fork to your local machine
+    ![fork](/assets/img/fork.png)
+
+2. **Clone the Forked Repository**: Clone your fork to your local machine
 
     ```sh
     git clone https://github.com/MAP-AD/map-ad.github.io.git
     ```
 
-3. **Create a Branch**: Create a new branch for your feature or bugfix
+3. **Make Changes**: Add documentation file to /docs/pages/docs/ following the template /docs/pages/TEMPLATE/documentation.md
 
-    ```sh
-    git checkout -b your-tool-name
-    ```
-
-4. **Make Changes**: Add documentation file to /docs/pages/docs/ following the template /docs/pages/TEMPLATE/documentation.md
-
-5. **Commit Changes**: Commit your changes with a clear and concise commit message
+4. **Commit Changes**: Commit your changes with a clear and concise commit message
 
     ```sh
     git commit -m "description of update"
     ```
 
-6. **Push Changes**: Push your changes to your fork on GitHub
+5. **Push Changes**: Push your changes to your fork on GitHub
 
     ```sh
-    git push origin your-tool-name
+    git push
     ```
 
-7. **Create a Pull Request**: Open a pull request to the main repository. Provide a detailed description of your changes
+6. **Create a Pull Request**: Open a pull request to the main repository. Provide a detailed description of your changes
+
+    ![pull request](/assets/img/PR.png)
 
 ## Style Guide
 

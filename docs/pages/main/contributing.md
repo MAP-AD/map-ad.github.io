@@ -9,7 +9,8 @@ Thank you for adding documentation for your tool! Here are some guidelines to ge
 
 1. **Fork the Repository**: Create a fork of the repository on GitHub
 
-    ![fork](/assets/img/fork.png)
+    <img src="/assets/img/fork.jpg" width="500px" alt="Fork demo" />  
+
 
 2. **Clone the Forked Repository**: Clone your fork to your local machine
 
@@ -33,7 +34,8 @@ Thank you for adding documentation for your tool! Here are some guidelines to ge
 
 6. **Create a Pull Request**: Open a pull request to the main repository. Provide a detailed description of your changes
 
-    ![pull request](/assets/img/PR.png)
+    <img src="/assets/img/PR.jpg" width="500px" alt="Pull request demo" />  
+
 
 ## Style Guide
 

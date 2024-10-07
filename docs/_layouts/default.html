@@ -17,7 +17,7 @@
       <header>
         <h1><a href="{{ "/" | relative }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         <a href="https://map-ad.org/">
-          <img src="{{site.logo | relative_url}}" alt="MAP Logo" />
+          <img src="{{ "/assets/img/MAP-logo.jpg" | relative_url}}" alt="MAP Logo" />
         </a>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -49,7 +49,7 @@
       </section>
       <footer>
         <a href="http://ukdri.ac.uk/">
-          <img src="{{site.logo_footer | relative_url}}" alt="UKDRI Logo" />
+          <img src="{{ "/assets/img/UKDRI_logo.jpg" | relative_url }}" alt="UKDRI Logo" width=250px/>
         </a>
         <p><small>Theme adapted from <a href="https://github.com/orderedlist/minimal">orderedlist/minimal</a></small></p>
       </footer>

@@ -42,13 +42,13 @@ To begin, explore the tools table below. Each entry includes a brief description
 |------|-------------|------|
 {% for page in site.pages -%}
 {% if page.tool -%}
-| [{{ page.name }}]({{page.url}}) | {{ page.description }} | [{{ page.github }}]({{ page.github }}) |
+| [{{ page.title }}]({{page.url}}) | {{ page.description }} | [{{ page.github }}]({{ page.github }}) |
 {% endif -%}
 {% endfor %}
 
 ### Contributing
 
-We encourage and welcome contributions from the MAP community. Whether you’ve developed a new tool, improved an existing one, or have feedback on the documentation, we would love your input. Please refer to our [contribution guidelines](contributing.md) to learn how.
+We encourage and welcome contributions from the MAP community. Whether you’ve developed a new tool, improved an existing one, or have feedback on the documentation, we would love your input. Please refer to our [contribution guidelines](/pages/main/contributing.md) to learn how.
 
 ### Support
 
@@ -67,7 +67,7 @@ If you have questions, encounter technical issues with the site, or need assista
 ### Frequently Asked Questions (FAQs)
 
 #### 1. **Who can contribute to the MAP tools wiki?**
-Anyone within the MAP research community or external collaborators interested in contributing to the project can participate. Simply follow our [contribution guidelines](contributing.md) for more details.
+Anyone within the MAP research community or external collaborators interested in contributing to the project can participate. Simply follow our [contribution guidelines](/pages/main/contributing.md) for more details.
 
 #### 2. **What should I do if I find a bug?**
 "Please report any bugs directly on the tool’s GitHub repository by creating an issue. If there isn't one, contact the maintainer listed at the top of the relevant documentation."
